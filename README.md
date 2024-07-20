@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/23bf0eea-426a-4d3e-b579-49b43a1a1a93)# ** Welcome to Online Store for Baby and Maternity Products**
+# ** Welcome to Online Store for Baby and Maternity Products**
 This project aims to develop an online store specializing in milk formula and other healthcare products for pregnant women and babies. The store is designed with a user-friendly interface, easy navigation, and offers various features for both customers and administrators.
 
 Screenshot to preview of project
