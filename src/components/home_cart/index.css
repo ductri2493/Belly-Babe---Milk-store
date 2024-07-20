@@ -1,0 +1,21 @@
+.section {
+  flex-grow: 1;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.section .section-page {
+  margin: 1rem auto;
+}
+
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+
+.custom-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #db2777 !important;
+}
+
+.custom-tabs .ant-tabs-ink-bar {
+  background-color: #db2777 !important;
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "voucher-id": 1,
+        "code": "BABYNEST10",
+        "discount": 0.1, // 10% off
+        "description": "Giảm 10% cho tất cả nôi cũi cho bé"
+    },
+    {
+        "voucher-id": 2,
+        "code": "DIAPERS20",
+        "discount": 0.2, // 20% off
+        "description": "Giảm 20% cho bỉm, tã cho bé"
+    },
+    {
+        "voucher-id": 3,
+        "code": "MILK15",
+        "discount": 0.15, // 15% off
+        "description": "Giảm 15% cho sữa bột cho bé"
+    },
+    {
+        "voucher-id": 4,
+        "code": "FREESHIP500",
+        "type": "free-shipping",
+        "minAmount": 500000, // Free shipping over 500,000 VND
+        "description": "Miễn phí vận chuyển cho đơn hàng từ 500.000đ"
+    },
+    {
+        "voucher-id": 5,
+        "code": "WELCOME10",
+        "discount": 0.1,
+        "type": "new-customer", // New customer voucher
+        "description": "Giảm 10% cho khách hàng mua lần đầu"
+    },
+    {
+        "voucher-id": 6,
+        "code": "MOMMY20",
+        "discount": 0.2,
+        "description": "Giảm 20% cho các đơn hàng sữa bột từ 1 triệu đồng"
+    },
+    {
+        "voucher-id": 7,
+        "code": "FIRSTSTEP15",
+        "discount": 0.15,
+        "type": "new-customer",
+        "description": "Giảm 15% cho khách hàng mua sữa bột lần đầu"
+    },
+    {
+        "voucher-id": 8,
+        "code": "WEEKEND10",
+        "discount": 0.1,
+        "startDate": "2024-06-07",
+        "endDate": "2024-06-09",
+        "description": "Giảm 10% cho đơn hàng sữa bột vào cuối tuần (Thứ Sáu - Chủ Nhật)"
+    },
+    {
+        "voucher-id": 9,
+        "code": "LOYALTY5",
+        "discount": 0.05,
+        "type": "loyalty",
+        "minPurchaseAmount": 2000000, // Min purchase amount of 2 million VND
+        "description": "Giảm 5% cho khách hàng thân thiết với đơn hàng từ 2 triệu đồng"
+    }
+]

@@ -1,0 +1,29 @@
+.grid {
+  &__style {
+    display: grid;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 30px;
+    padding: 16px;
+  }
+
+  &__link {
+    display: block;
+    background: white;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #111;
+    transition: transform 0.3s ease;
+  }
+
+  &__link:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid__style {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
+

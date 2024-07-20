@@ -1,0 +1,31 @@
+.search {
+    width: 40vw;
+    position: relative;
+    display: block;
+    z-index: 0;
+ &__input {
+    width: 100%;
+    min-width: 608px;
+    padding-right: 48px;
+    height: 48px;
+    font-size: 16px;
+    padding-left: 20px;
+    border: 2px solid #ff469e;
+    border-radius: 12px;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+ }
+ &__btn {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 72px;
+    height: 100%;
+    background: #ff469e url(https://cdn1.concung.com/themes/desktop4.1/image/v40/icon/search.svg)no-repeat center;
+    background-size: 28px 28px;
+    border-radius: 0 12px 12px 0;
+ }
+}
